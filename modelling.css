@@ -1,0 +1,646 @@
+
+  /*---------HOMEPAGE PHONE----------*/
+  @font-face {
+     font-family: myFirstFont;
+     src: url(Montserrat-Regular.ttf);
+  }
+flexbox{justify-content: center;display:flex;margin-block-start:5%;
+margin-left:25%}
+.grid-container {
+    display: flex;
+    flex-direction: column;}
+
+body{background-image:linear-gradient(lightgreen,white);
+    overflow-y: scroll;}
+
+header img{width: 58%;
+    height: 58%;
+    object-fit:contain;
+    margin-left: 22%}
+
+nav ul { list-style-type: none;
+        padding: 0;}
+        nav li{display:inline; margin:3px;}
+        a:link,a:visited{color:navy; text-decoration: none;}
+        nav li a:hover{color:red; text-decoration: underline;}
+        nav li a:visited{color:darkred}
+
+#mainnav{display: flex; justify-content:center;}
+
+#menu{
+    width: fit-content;
+    height: max-content;
+    letter-spacing:0.05em;
+    font-size:3.25vw;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align:center;}
+
+
+#down-size{
+          width:78%; margin-left:11%}
+
+heading1{font-family: myFirstFont;
+        font-size:4.5vw;margin-block-end:3%;}
+
+subheader1{font-family: myFirstFont;
+        font-size:3.25vw;}
+
+button1{font-family: myFirstFont;
+      font-size:4.15vw;
+      color: #03a9f4;
+      margin-left:55%}
+
+  button1 a:hover{color:red;text-decoration:underline;}
+
+  writing1{display:flex;flex-direction: column;align-items: center;
+    margin-left: 11%;margin-right:11%;
+    background-color: white;
+  }
+
+  .whatsnew{display:block;margin-block-end:5%}
+
+  #down-size2{width:99%;
+     height: 99%;}
+
+  heading2{
+    font-family: myFirstFont;
+    font-size:4.5vw;
+  margin-block-end:3%}
+
+  subheader2{font-family: myFirstFont;
+    font-size:3.25vw;margin-right:40%}
+
+  writing2{display:flex;
+    flex-direction: column;align-items: center;
+    margin-block-start:5%;
+  margin-left: 11%;margin-right: 11%;background-color: white;}
+
+  button2{font-family: myFirstFont;
+    font-size:4.15vw;
+    color: #03a9f4;
+    padding-bottom: 3%;
+  margin-left:56%}
+
+  button2 a:hover{color:red;text-decoration:underline;}
+
+  writing3{display:flex;flex-direction: column;align-items: center;
+  margin-left:11%;margin-right:11%;margin-block-end:5%;
+  background-color: white;}
+
+  #down-size3{width:99%;
+    height: 99%;}
+
+    heading3{font-family: myFirstFont;
+      font-size:4.5vw;margin-block-end:3%;}
+
+    subheader3{font-family: myFirstFont;
+      font-size:3.25vw;}
+
+    button3{font-family: myFirstFont;
+      font-size:4.15vw;
+      color: #03a9f4;
+      margin-block-start:5%;
+      padding-bottom: 3%;
+      margin-left:56%}
+
+    button3 a:hover{color:red;text-decoration:underline;}
+
+    writing4{display:flex;
+      flex-direction: column;
+    align-items: center;
+  margin-left:11%;
+  margin-right:11%;
+background-color: white;}
+
+    #down-size4{width:72%; height: 72%;}
+
+    heading4{font-family: myFirstFont;
+      font-size:4.5vw;
+    margin-block-end:5%}
+
+
+    subheader4{font-family: myFirstFont;
+      font-size:3.25vw;}
+
+      button4{font-family: myFirstFont;
+        font-size:4.15vw;
+        color: #03a9f4;
+        margin-left:56%;
+        padding-bottom: 3%}
+
+      button4 a:hover{color:red;text-decoration:underline;}
+/*---------------END HOMPAGE PHONE------------*/
+/*---------------COMPLETED PROJECTS-----------*/
+#wrapperpage1{
+     width: 80%;
+     margin-right: 6%;
+     padding-top:5%;}
+
+     #menupage1{
+       width: fit-content;
+       height: max-content; /*ADJUSTED THIS FOR MOBILE*/
+         letter-spacing:0.05em;
+       font-size:3.25vw;
+         font-weight: bold;
+       border: 2px solid black;
+       border-radius: 25px;
+       text-align:center;}
+
+     .grid-container-page1{
+                display: flex;
+                flex-direction: column;
+              align-items: center;}
+
+    .wallpaper{
+        display:flex;
+        align-items: center;}
+
+    .text{
+      color:white;
+      font-family: myFirstFont;font-size: 4.15vw;
+      margin-top: 43%;}
+
+      .text:before {
+      content:"";
+      background-image:url("header image.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      height: 19%;
+      width: 60%;
+      margin-left: -7%;
+      margin-top:-15%;
+      z-index: -1;}/*extend background colour of header
+      beyond container - Stackoverflow*/
+
+page1-image-place{display:block}
+
+#page1-down-size{width:99%; height:99%;
+  padding-left: 3%;
+  padding-top: 5%;
+  padding-bottom:7%;
+  }
+
+  subheading1{display: flex; flex-direction: column;
+    align-items: center;
+    margin-block-start:23%;
+    background-color: white;
+    margin-left: 16%;
+    margin-right:9%}
+
+  projectheading{font-family: myFirstFont;
+    font-size:4.5vw; display:block;}
+
+  projectbutton{font-family: myFirstFont;font-size:4.15vw;color: #03a9f4;
+  text-align:center;display:block;width:33%; margin-left:57%}
+
+  subheading2{display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 16%;
+    margin-right:9%;
+    margin-block-start:5%;}
+
+    page1-image-place2{display:block;}
+
+    #page1-down-size2{
+       width:94%; height: 94%;
+       margin-block-end:4%;
+       margin-left:3%;
+       overflow: hidden;;
+       align-items: center;
+     }
+
+     projectheading2{font-family: myFirstFont;
+       font-size:4.5vw; display:block; margin-block-start:2%;
+     }
+     projectbutton2{font-family: myFirstFont;
+       font-size:4.15vw;color: #03a9f4;
+     text-align:center;display:block;
+     width:fit-content; margin-left:51%}
+
+subheading3{display: flex;
+   flex-direction:column; align-items: center;
+ background-color:white; margin-left: 16%;margin-right: 10%;
+margin-block-start:5%;}
+
+   page1-image-place3{display:block;}
+
+  #page1-down-size3{
+    width:90%; height: 90%;
+    margin-block-start:6%;
+    margin-block-end:4%;
+    }
+
+    projectheading3{font-family: myFirstFont;
+      font-size:4.5vw; display:block; padding-block-start:2%;
+    }
+
+    projectbutton3{font-family: myFirstFont;
+    font-size:4.15vw;color: #03a9f4;
+    text-align:center;display:block;
+    width:fit-content; margin-left:50%}
+
+
+/*-------------- END OF COMPLETED PROJECTS-----------*/
+/*---------------PROJECT 1----------------*/
+
+#wrapperpage2{
+     width: 80%;
+     margin-left: 10%;
+     padding-top:5%;}
+.Holder{display:block}
+
+.upscale{width:84%;
+height: 84%;
+margin-left: 8%;
+margin-bottom: 2%;
+margin-top: 5%}
+
+
+links h1{margin-left: 25%;}
+links div{margin-block-start:5%}
+
+.left{display: flex;
+  margin:4%;
+  width:47%;
+  float:left;}
+
+.middle{width:111%;}
+.centercircle{display: block;
+  border-radius: 36%;
+  width: 68%;
+  margin: 5% 13%;}
+
+  .right{display: block;margin:5% 1%;width:98%}
+
+  material{float:left;}
+  project-content h1{margin-inline-start:22%;margin-block-end:13%}
+  project-content{background-color: white;font-family: myFirstFont;line-height: 150%}
+  project-content div{padding:5%;display:block}
+  links div{padding:5%;display:block}
+  links{background-color: white;font-family: myFirstFont;line-height: 150%;}
+/*-------------END OF PROJECT 1-----------*/
+
+/*End of mobile media*/
+
+@media only screen and (min-width:1070px) {
+  /*----------------HOME PAGE-----------*/
+  .grid-container{
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           grid-template-rows: 1fr 6fr 6fr 1fr;}
+
+
+
+  header img{
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+  #mainnav{
+       grid-column:1/ span 3; grid-row:1;}
+
+  #menu{
+     font-size:1.25vw;}
+
+  #wrapper{
+        width: 80%;
+        margin: 0 auto;
+        padding-top:2%;}
+
+  #maincontent1{grid-column:1/span 3; grid-row: 2;    align-items: center;}
+
+  #image-place{display:inline-block;grid-column:1/span 3; grid-row: 1}
+  .completed{background-color:white;
+      align-items: center;
+      margin-block-start: 5%;
+      border-radius: 25px}
+
+  #down-size{max-width:40%; max-height: 40%;
+      object-fit:contain;
+      float:left;
+      overflow: hidden;
+      align-items: center;
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+      margin-left:0%}
+
+  writing1{padding-left: 15%}
+
+  heading1{font-size:1.5vw;
+    padding-bottom: 5%;padding-top:37%;padding-left: 1%}
+
+  subheader1{font-size:1.25vw;
+    justify-content: flex-start;
+    padding-bottom: 10%;}
+
+  button1{
+    font-size:1.15vw;
+    border: 2px solid #03a9f4;
+    border-radius: 25px;
+    text-align:center;
+    width: 63%; margin: 0%;}
+
+  button1 a:hover{color:red;text-decoration:underline;}
+
+  .whatsnew{display:flex; grid-column: 1;grid-row: 3;}
+
+  #image-place2{display:block;grid-column:1; grid-row: 3}
+
+  #down-size2{
+     object-fit:contain;
+     float:left;
+     overflow: hidden;
+     align-items: center;
+     padding-top: 19%;
+     padding-bottom:7%;}
+
+  writing2{
+    height:max-content;
+    margin-block-start: 20%;
+    margin-inline-start:5%;
+    margin-inline-end:1%;}
+
+  heading2{
+    font-size:1.25vw;
+    padding: 3% 15% 5%;
+    text-align: center;
+    margin-block-end:0%}
+
+  subheader2{
+    font-size:0.90vw;justify-content:
+    flex-start;padding-bottom: 10%;
+    padding-left: 10%}
+
+  button2{
+    font-size:1vw;
+    text-align: end;
+    overflow: hidden;
+    padding-bottom: 3%;
+    padding-top: 2%}
+
+
+  .videos{display:flex; grid-column: 2;grid-row: 3;}
+
+  image-place3{display:block;grid-column:1; grid-row: 3}
+
+  #down-size3{max-width:80%;
+    max-height: 80%;
+    object-fit:contain;
+    float:left;
+    overflow: hidden;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 5%;}
+
+  writing3{
+    height:max-content;
+    margin-block-start: 20%;
+    margin-left:5%;
+    margin-right:1%;}
+
+  heading3{
+    font-size:1.25vw;
+    padding: 3% 15% 5%;
+    text-align: center;
+    margin-block-end:3%}
+
+  subheader3{
+    font-size:0.90vw;
+    justify-content: flex-start;
+    padding-bottom: 7%;
+    padding-left: 10%}
+
+  button3{
+    font-size:1vw;
+    text-align: end;
+    overflow: hidden;
+    padding-bottom: 3%}
+
+  .Contact{display:flex; grid-column: 3;grid-row: 3;}
+
+image-place4{display:block;grid-column:1; grid-row: 3}
+
+#down-size4{width:83%; height: 83%;
+  object-fit:contain;
+  float:left;
+  overflow: hidden;
+  align-items: center;
+  padding-top: 15%;
+  padding-bottom: 10%;}
+
+writing4{
+  height:max-content;
+  margin-block-start: 20%;
+  margin-left:5%;
+  margin-right:1%;
+  margin-block-end:4%;}
+
+heading4{
+  font-size:1.25vw;
+  padding-top: 4%;
+  text-align: center;}
+
+subheader4{
+  font-size:0.90vw;
+  justify-content: flex-start;
+  padding-bottom: 10%;}
+
+button4{
+  font-size:1vw;
+  text-align: end;
+  overflow: hidden;
+  padding-bottom: 5%}
+
+footer{grid-column:1/ span 3;
+  grid-row: 4;
+  background-color: #bfe6ff;
+  text-align: center;}
+/* -----------------HOME PAGE END-----------*/
+
+
+/* ---------------- SHOW LIST OF COMPLETED PROJECTS-------*/
+.grid-container-page1{
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           grid-template-rows: 6fr 6fr 1fr;
+         }
+headerpage1{display:flex}
+headerpage1 img{
+    width: 15%;
+    height: 15%;
+    object-fit:contain;
+    display: block;
+      margin-left: 0;
+      margin-right: auto;}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+
+#menupage1{
+  width: fit-content;
+  height: max-content; /*ADJUSTED THIS FOR MOBILE*/
+    letter-spacing:0.05em;
+  font-size:1.25vw;
+    font-weight: bold;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align:center;}
+
+#wrapperpage1{
+     width: 80%;
+     margin-right: 5%;
+     padding-top:5%;}
+
+     #page1down-size{
+        max-width:75%; max-height: 75%;
+        object-fit:contain;
+        overflow: hidden;
+        border-radius: 25px;
+        ;
+
+      }
+
+
+.wallpaper{grid-column:1/ span 3; grid-row:1;}
+
+.text{font-size:3.15vw;
+  margin-top:7%;
+  margin-left:34%;margin-block-end:6%}
+
+.text:before{
+height: 66%;
+margin-left: -14%;
+}
+
+
+subheading1{display: block; margin-inline-start:17%;}
+page1-image-place{display:block;grid-column:1; grid-row: 2;}
+#page1-down-size{width:94%; height: 94%;
+  padding-left: 3%;
+  overflow: hidden;
+  align-items: center;
+  margin-block-start:-4%;
+  padding-bottom:2%;}
+
+  projectheading{font-size:1.5vw; padding-left:19%;
+  padding-bottom:6%}
+
+  projectbutton{font-size:1.15vw;
+  width:28%; margin-left:58%}
+
+  subheading2{
+    margin-inline-start:10%;
+    width:fit-content;
+    margin-block-start:15%;}
+
+  page1-image-place2{display:block;grid-column:2; grid-row: 2;}
+  #page1-down-size2{
+     width:82%; height: 82%;
+     object-fit:contain;
+     overflow: hidden;
+     margin-block-end:0%;
+     margin-block-start:0%;
+     }
+
+   projectheading2{font-size:1.5vw;
+    padding-left:0%;
+    padding-top:5%;
+    margin-block-end:1%}
+
+   projectbutton2{
+     font-size:1.15vw;
+     margin-left:59%;
+    padding-top:4%}
+
+   subheading3{display: block;
+     margin-inline-start:10%;
+     width:fit-content;
+    margin-block-start:22%}
+
+   page1-image-place3{grid-column:3; grid-row: 2;}
+   #page1-down-size3{
+      width:79%; height: 79%;
+      object-fit:contain;
+      overflow: hidden;
+      margin-block-start:0%;
+      margin-block-end:1%;
+      padding-left:10%}
+
+    projectheading3{
+      font-size:1.5vw; padding-block-start:0%;margin-left: 32%;
+    padding-bottom:9%}
+
+    projectbutton3{
+      font-size:1.15vw;
+    display:block;
+    margin-left:51%}
+
+#shiftleft{margin-left:34%}
+
+/*---------------- END OF COMPLETED PROJECTS LIST---------*/
+
+/*----------------Project pages layout--------------*/
+  .Holder{display:block}
+  .upscale{width:84%;
+  height: 84%;
+  margin-left: 8%;
+  margin-bottom: 2%;
+  margin-top: 5%}
+
+links h1{margin-left: 25%;}
+links div{margin-block-start:5%}
+
+
+
+  .left{display: flex;
+    margin:4%;
+    width:47%;
+  float:left;}
+  .middle{width:50%;margin-left:26%}
+.centercircle{display: flex;
+    border-radius: 47%;
+    width: 33%;
+    float: left;
+    margin: 5%;}
+
+  .right{display: flex;
+    margin:4%;
+    width:47%;
+  float:right;}
+
+  intro{}
+  materal{float:left;}
+  project-content h1{margin-inline-start:30%;margin-inline-end:30%}
+  project-content{background-color: white;font-family: myFirstFont;line-height: 150%}
+  project-content div{padding:5%;display:block}
+  links div{padding:5%;display:block}
+  links{background-color: white;font-family: myFirstFont;line-height: 150%;}
+
+  #menupage{
+    width: fit-content;
+    height: max-content; /*ADJUSTED THIS FOR MOBILE*/
+      letter-spacing:0.05em;
+    font-size:1.25vw;
+      font-weight: bold;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align:center;
+  margin-left: 23%;}
+
+/*--------------End of project layout page-------------*/
+
+
+
+
+}
