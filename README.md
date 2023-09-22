@@ -1,1 +1,1 @@
-# smartiexxxx.github.io
+# ManicModels.github.io
